@@ -3,18 +3,32 @@
 
     <head>
         <title>Survey Page 2</title>
-        
-<linkrel="stylesheet" href="./css/stylesheet.css">
-    </head>
-    <body>
-        <h1>Submit survey</h1>
+    </head>  
+
+<body class="wrapper">
+<link rel="stylesheet" href="./css/stylesheet.css">
+        <h1>What is Your Age?</h1>
+        <div>
+            <label for="age"> Select Your Age
+
+                <select name="age" id="age">
+                    <option value="Under18">Under 18</option>
+                    <option value="18-22">18-22</option>
+                    <option value="23-28">23-28</option>
+                    <option value="28-35">28-35</option>
+                    <option value="36-45">36-45</option>
+                    <option value="Over45">Over 45</option>
+                </select>
+            </label>
+        </div>
+
         <p>
-            <a href="./thank-you.html"> Submit</a> </p>
+            <a href="./survey-3.html">Go to Page 3</a> </p>
             <p>
-        <button onclick="window.location.href='thank-you.html';">
-        Submit Survey
+        <button onclick="window.location.href='survey-3.html';">
+        Next
             </button>
         </p>
-        <p>Page 2 of 2</p>
+        <p>Page 2 of 4</p>
     </body>
 </httml>

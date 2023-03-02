@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <httml lang="en">
+<head>
     <title>
         Page 1
     </title>
-<linkrel="stylesheet" href="./css/stylesheet.css">
-    <body>
+
+</head>
+<body class="wrapper">
+    <link rel="stylesheet" href="./css/stylesheet.css">
         <h1>Survey Page 1</h1>
+
+
+        <form>
+            <fieldset>
+                <legend>Contact info</legend>
+                <div>
+                <label for = "fname"> First Name:
+              
+                    <input id="fname" type="text" autofocus>
+                </label>
+               </div>
+                <label for = "Lname"> Last Name:
+              
+                    <input id="fname" type="text">
+
+                </label>
+                
+            </div>
+         <div>
+                <label for = "fname"> Email Address:
+              
+                    <input id="fname" type="email">
+                </label>
+                </div>
+            </fieldset>
+
+
+
+        </form>
         <p>
-            <a href="./survey-2.html"> Page 1</a> </p>
+            <a href="./survey-2.html"> Go to page 2</a> </p>
             <p>
         <button onclick="window.location.href='survey-2.html';">
         Next
             </button>
         </p>
+        <p>Page 1 of 4</p>
     </body>
 </httml>
